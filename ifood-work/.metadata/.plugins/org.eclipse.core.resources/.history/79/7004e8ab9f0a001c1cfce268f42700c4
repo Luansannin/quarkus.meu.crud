@@ -1,0 +1,14 @@
+package com.github.viniciusfcf.ifood.cadastro;
+
+
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+
+import io.quarkus.hibernate.orm.panache.PanacheEntity_;
+
+public class Restaurante extends PanacheEntity_ {
+	 @Id
+	    @GeneratedValue
+	    public Long id;
+
+}
